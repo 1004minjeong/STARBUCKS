@@ -7,11 +7,17 @@ font-family: 'NanumSquareNeo';
 font-family: 'NanumSquareNeoBold';
 font-family: 'NanumSquareNeoExtraBold';
 font-family: 'NanumSquareNeoHeavy'; */
+/* @font-face {
+  font-family: "SBAggroB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+} */
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Noto Sans", sans-serif;
 }
 
 .wrap {
@@ -25,23 +31,23 @@ header {
   background-size: cover;
   width: 100%;
   height: 100vh;
-  font-family: 'NanumSquareNeoHeavy';
-
-
 }
 
 .top {
   position: relative;
+  color: rgb(5, 39, 88);
 }
 
 .top h1 {
   text-align: center;
   font-size: 3rem;
+  font-family: "NanumSquareNeoExtraBold";
 }
 
 .top h1:nth-child(2) {
   font-weight: 800;
   font-size: 6rem;
+  font-family: "NanumSquareNeoHeavy";
 }
 
 .top .cloud1 {
@@ -59,26 +65,24 @@ header {
   width: 125px;
 }
 
+.top_drink {
+}
 
-.top_drink {}
-
-.top_drink ul {
+.top_drink {
   display: flex;
   overflow: hidden;
-  width: 100%;
+  position: relative;
 }
 
-.top_drink ul li {
-  width: 33.3333%;
-}
-
-.top_drink ul li img {
-  width: 100%;
+.top_drink img {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
 
 .logo {
   position: relative;
-
 }
 
 .logo .logoimg {
@@ -101,9 +105,7 @@ header {
   transform: rotate(292deg);
   height: 248px;
   animation: pulpul2 3s 0.3s linear infinite both;
-
 }
-
 
 /* headeranimation */
 @keyframes gulum1 {
@@ -170,8 +172,7 @@ header {
   100%{transform: rotate(0deg);}
  } */
 
-
-/*  banner */
+/*  nav */
 
 nav {
   height: 50px;
